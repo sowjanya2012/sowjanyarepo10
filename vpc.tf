@@ -4,3 +4,10 @@ resource "aws_vpc" "name" {
     }
   
 }
+
+resource "aws_vpc" "name" {
+    tags = {
+      Name = "sowjanya"
+    }
+  
+}
